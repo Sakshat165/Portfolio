@@ -1,0 +1,52 @@
+.circle {
+ 
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    padding: 50px 20px;
+    background: orange;
+    border: 3px solid #000;
+    color: #000;
+    text-align: center;
+    font: 20px Arial, sans-serif;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin-bottom: 20px; /* Added margin for spacing */
+    margin-top: 40px;
+    animation: moveUpDown 2s infinite alternate;
+    
+  }
+
+  
+
+  @keyframes moveUpDown {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(20px); /* Adjust the distance to move up and down */
+    }
+  }
+
+  @media (max-width:767px)
+  {
+    .container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+  }
+  @media (max-width: 767px) {
+    .circle {
+      animation: moveLeftRight 2s infinite alternate;
+    }
+  
+    @keyframes moveLeftRight {
+      0% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(10px); /* Adjust the distance to move left and right */
+      }
+    }
+  }

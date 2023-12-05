@@ -1,0 +1,105 @@
+span {
+    margin: 0;
+    padding: 0;
+  }
+
+  .t-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .profile-card1 {
+    width: 340px;
+    height: 385px;
+    margin:50px 25px 25px 25px;
+  }
+
+  .card-body1 {
+    width: 340px;
+    height: 385px;
+    background: orange;
+    box-shadow: 0.5px 2px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+    border: 3px solid #000;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .name1 {
+    position: absolute;
+    font-weight: bolder;
+    line-height: normal;
+    font-size: 24px;
+    top: 20%;
+    color: #000000;
+  }
+
+  .title {
+    position: absolute;
+    top: 30%;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 14px;
+  }
+  .title2 {
+    position: absolute;
+    top: 35%;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 14px;
+  }
+
+  .text {
+    position: absolute;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 300;
+    top: 45%;
+    padding: 4px;
+  }
+
+  .i {
+    padding-top: 10px;
+    font-size: 12px;
+    font-family: sans-serif;
+    font-style: italic;
+  }
+
+  .task {
+    position: absolute;
+    top: 65%;
+    font-size: 13px;
+  }
+
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+
+  .social a:hover, a:hover{
+    color: #56CCF2;
+  }
+
+  .social {
+    position: absolute;
+    top: 80%;
+    /*font-size: 12px;*/
+  }
+
+  .social ul {
+    display: inline-flex;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .social a {
+    padding: 0 5px 0 5px;
+    color: #242424;
+  }

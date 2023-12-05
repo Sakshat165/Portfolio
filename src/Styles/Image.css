@@ -1,0 +1,8 @@
+.image--cover {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 3px solid #000;
+    object-fit: cover;
+    object-position: center right;
+  }

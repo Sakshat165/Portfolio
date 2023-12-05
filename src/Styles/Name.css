@@ -1,0 +1,15 @@
+.name
+{
+    font-size:2rem;
+    letter-spacing:0.5em;
+    color:white;
+}
+@media (max-width:767px)
+{
+    .name{
+        font-size: 1rem;
+    }
+    .home{
+        display:none
+    }
+}
