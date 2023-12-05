@@ -21,7 +21,7 @@ function App() {
     <NavBar/>
     <Routes>
     
-      <Route exact path='/' element= {<CircleContainer  setShowResume={setShowResume}/>}/>
+      <Route exact path='/Portfolio' element= {<CircleContainer  setShowResume={setShowResume}/>}/>
       <Route exact path='/about me' element={<Aboutme  setShowResume={setShowResume}/>}/>
       <Route exact path='/education' element={<Education  setShowResume={setShowResume}/>}/>
       <Route exact path='/skills' element={<Skills  setShowResume={setShowResume}/>}/>
